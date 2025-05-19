@@ -1,9 +1,9 @@
 {
   "swagger": "2.0",
   "info": {
-    "title": "XSS Test API",
+    "title": "",
     "version": "1.0.0",
-    "description": "<script>alert('XSS')</script>"
+    "description": "<script>alert(document.orgin)</script>"
   },
   "paths": {}
 }

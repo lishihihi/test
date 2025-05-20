@@ -7,12 +7,17 @@
   "paths": {
     "/poc": {
       "get": {
+        "summary": "Get PoC YAML",
         "responses": {
           "200": {
-            "description": "Success"
+            "description": "Success",
+            "schema": {
+              "type": "string"
+            }
           }
         }
       }
     }
   }
 }
+

@@ -1,23 +1,2 @@
-{
-  "swagger": "2.0",
-  "info": {
-    "title": "PoC API",
-    "version": "1.0.0"
-  },
-  "paths": {
-    "/poc": {
-      "get": {
-        "summary": "Get PoC YAML",
-        "responses": {
-          "200": {
-            "description": "Success",
-            "schema": {
-              "type": "string"
-            }
-          }
-        }
-      }
-    }
-  }
-}
+
 

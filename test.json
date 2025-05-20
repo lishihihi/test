@@ -1,9 +1,10 @@
-{
-  "swagger": "2.0",
-  "info": {
-    "title": "",
-    "version": "1.0.0",
-    "description": "<script>alert(document.cookie)</script>"
-  },
-  "paths": {}
-}
+swagger: "2.0"
+info:
+  title: PoC API
+  version: "1.0.0"
+paths:
+  /poc:
+    get:
+      responses:
+        200:
+          description: Success
